@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="navigation">
+        <svg class="logo" >
+          <use xlink:href="./assets/images/icons.svg#logo"></use>
+        </svg>
+        <nav class="primary-nav">
+          <button
+            class="mobile-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-label="Menu"
+          ></button>
+
+          <ul class="nav-links" data-nav-toggled="false">
+            <li><a class="nav-link" href="#">About</a></li>
+            <li><a class="nav-link" href="#">Services</a></li>
+            <li><a class="nav-link" href="#">Projects</a></li>
+            <li><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="section-hero">
+        <section class="titling-wrapper">
+          <div class="titling-pointer-tracker"></div>
+          <div class="titling-pointer-tracker"></div>
+          <div class="titling-pointer-tracker"></div>
+          <div class="titling-pointer-tracker"></div>
+          <div class="titling-pointer-tracker"></div>
+          <div class="titling-pointer-tracker"></div>
+          <div class="titling-pointer-tracker"></div>
+          <div class="titling-pointer-tracker"></div>
+          <div class="titling-pointer-tracker"></div>
+          <div class="hero-content">
+            <h1 class="hero-title">We are creatives</h1>
+
+            <svg class="icon-hero">
+              <use xlink:href="./assets/images/icons.svg#icon-arrow-down"></use>
+            </svg>
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- end of header and being of main  -->
+    <main class="main-grid">
+      <section class="section-cols">
+        <div class="col-content">
+          <h2 class="col-heading">Transform your brand</h2>
+          <p class="col-p">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a class="col-cta cta-yellow" href="#">Learn more</a>
+        </div>
+        <div class="col-img-yellow"></div>
+      </section>
+      <section class="section-cols">
+        <div class="col-img-red"></div>
+        <div class="col-content">
+          <h2 class="col-heading">Stand out to the right audience</h2>
+          <p class="col-p">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a class="col-cta cta-red" href="#">Learn more</a>
+        </div>
+      </section>
+      <section class="section-cols">
+        <div class="section-centered img-graphic-design">
+          <h3 class="section-centered-heading">Graphic design</h3>
+          <p class="section-centered-p">
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+        <div class="section-centered img-photography">
+          <h3 class="section-centered-heading">Photography</h3>
+          <p class="section-centered-p">
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-testimonials">
+        <h2>Client testimonials</h2>
+        <div class="testimonials">
+          <article class="testimonial">
+            <img src="./assets/images/image-emily.jpg" alt="" />
+
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <a href="#">Emily R.</a>
+            <h3>Marketing Director</h3>
+          </article>
+          <article class="testimonial">
+            <img src="./assets/images/image-thomas.jpg" alt="" />
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <a href="#">Thomas S.</a>
+            <h3>Chief Operating Officer</h3>
+          </article>
+          <article class="testimonial">
+            <img src="./assets/images/image-jennie.jpg" alt="" />
+
+            <p>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <a href="#">Jennie F.</a>
+            <h3>Business OwnerBusiness Owner</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-gallery">
+        <div class="img-milkbottles"></div>
+        <div class="img-orange"></div>
+        <div class="img-cone"></div>
+        <div class="img-sugar-cubes"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <svg class="footer-logo">
+        <use xlink:href="./assets/images/icons.svg#logo"></use>
+      </svg>
+      <nav aria-label="secondary" class="footer-nav">
+        <ul class="footer-links">
+          <li><a class="footer-link" href="#">About</a></li>
+          <li><a class="footer-link" href="#">Services</a></li>
+          <li><a class="footer-link" href="#">Projects</a></li>
+        </ul>
+
+        <ul class="social-list">
+          <li>
+            <a href="#" aria-label="facebook">
+              <svg class="social-icon">
+                <use xlink:href="./assets/images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="instagram">
+              <svg class="social-icon">
+                <use xlink:href="./assets/images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="pinterest">
+              <svg class="social-icon">
+                <use xlink:href="./assets/images/icons.svg#icon-pinterest"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="twitter">
+              <svg class="social-icon">
+                <use xlink:href="./assets/images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!--   
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
