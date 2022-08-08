@@ -504,7 +504,7 @@ body {
 
 .img-photography {
   background-color: var(--primary-blue-500);
-  color: var(--cls-blue-500);
+  color: var(--clr-blue-500);
   background-image: url(../../assets/images/mobile/image-photography.jpg);
   background-position: center center;
   background-repeat: no-repeat;
